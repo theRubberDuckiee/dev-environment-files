@@ -45,3 +45,7 @@ success_symbol = '[ ➜](bold green) '
 error_symbol = '[ ✗](#E84D44) '
 
 [time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#1d2230"
+format = '[[ 󱑍 $time ](bg:#1C3A5E fg:#8DFBD2)]($style)'
